@@ -12,15 +12,15 @@ This project demonstrates how to handle dynamically loaded content (JavaScript/l
 
 ## Tech Stack
 * **Python 3.x**
-* **[Playwright](https://playwright.dev/python/):** For browser automation and scraping dynamic content.
-* **[Pandas](https://pandas.pydata.org/):** For data manipulation, cleaning, and CSV export.
+* **Playwright:** For browser automation and scraping dynamic content.
+* **Pandas:** For data manipulation, cleaning, and CSV export.
 
 ## Setup and Installation
 
 1. **Clone the repository:**
    ```bash
-   git clone <your-repository-url>
-   cd <your-repository-folder>
+   git clone https://github.com/AlexandruAchilleF/ecommerce-price-tracker
+   cd ecommerce-price-tracker
    ```
 
 2. **Install dependencies:**
@@ -47,6 +47,3 @@ python price_tracker.py
 2. It will navigate to the Altex laptops section and scroll down to load more products.
 3. The terminal will log the scraping progress and output the top 5 cheapest laptops found.
 4. A file named `altex_laptops_cleaned.csv` will be generated in your project directory containing the full sorted list. *(Note: This file is added to `.gitignore` and is not tracked in this repository).*
-
-## Disclaimer
-This project is meant for educational purposes to practice web scraping, DOM manipulation, and data cleaning. Please respect the target website's `robots.txt` and terms of service when running scrapers.
